@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Nespresso shop',
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(38, 38, 48, 1),
+        primaryColor: Color.fromRGBO(35, 35, 40, 1),
         backgroundColor: Color.fromRGBO(40, 40, 50, 1),
       ),
       home: Homepage(),
