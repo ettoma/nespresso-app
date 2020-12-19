@@ -20,7 +20,14 @@ class MakerCard extends StatelessWidget {
           ),
           width: 150,
           height: 200,
-          child: Text(makerImage),
+          child: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Image(
+              image: AssetImage(makerImage),
+              fit: BoxFit.cover,
+              alignment: Alignment.center,
+            ),
+          ),
         ),
         SizedBox(
           height: 20,
