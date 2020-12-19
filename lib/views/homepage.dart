@@ -16,9 +16,6 @@ class Homepage extends StatelessWidget {
           padding: EdgeInsets.all(24),
           child: Column(
             children: [
-              SizedBox(
-                height: 10,
-              ),
               Makers(),
               SizedBox(
                 height: 20,

@@ -3,14 +3,14 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class ToolBar extends StatelessWidget with PreferredSizeWidget {
   @override
-  Size get preferredSize => const Size.fromHeight(70);
+  Size get preferredSize => const Size.fromHeight(80);
 
   @override
   Widget build(BuildContext context) {
     return AppBar(
       centerTitle: true,
       leadingWidth: 75,
-      toolbarHeight: 100,
+      toolbarHeight: 80,
       elevation: 0,
       leading: Container(
         decoration: BoxDecoration(
